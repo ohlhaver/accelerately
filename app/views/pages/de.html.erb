@@ -1,0 +1,266 @@
+<div class ="header_wrapper roman">
+	<div class="container_12 clearfix">
+		<div class="padding_top light_grey small_size clearfix letter_spacing_2">
+			<div class="float_left padding_left">
+				+49 170 4713446 -
+				<%= mail_to "info@accelerate.ly", "INFO@ACCELERATE.LY", :subject=>"info" , :class=> 'sea_green' %>
+			</div>
+			<div class="float_right padding_right">
+				<%= link_to( t('header.german'), "/de") %>  
+				/  
+				<%= link_to( t('header.english'), root_path) %>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="blue_bg roman">
+	<div class="container_12">
+		<div class='center_align'>
+			<div class="padding_top_20 margin_top_5 dark_grey wide_space logo">
+				<%= image_tag('logo_accelerately.png') %>
+				<span class='bold'>ACCELERATE</span>.LY
+			</div>
+			<div class="padding_bottom"><%= image_tag('logo_line.png') %></div>
+			<div class="intro_wrapper light_grey padding_top_20">
+				<div class="intro_text bold">
+					Schlaue Web-Entwicklung <br> für Startups.
+				</div>
+				<div class="intro_fixed_rate white padding_top_20 padding_bottom">
+					Minimum Viable Product Launch in 30 Tagen, ab 2500 €
+				</div>
+			</div>
+			<div class='speedometer'><%= image_tag('speedometer.png') %> </div>
+			<div class='empty_div white_bg margin_left margin_right'>&nbsp;</div>
+			<h1 class="hiw_text white_bg dark_grey margin_left margin_right">
+				So funktioniert’s:
+			</h1>
+		</div>
+	</div>
+</div>
+<div class="light_grey_bg">
+	<div class="container_12 clearfix">
+		<div class='grid_12 white_bg center_align'>
+			<div class="clearfix dark_grey">
+				<div class="grid_4 omega padding_left_20 margin_left_20">
+					<%= image_tag('hiw_1.png') %>
+					<div class="huge_size clearfix padding_left_20 margin_left_20 padding_top_20 margin_top_5"> 
+						<div class="float_left bold"> 1. </div>
+						<div class="left_align margin_left padding_left margin_right_20 padding_right_20">
+							Sie sagen uns, was Sie brauchen.
+						</div>
+					</div>
+				</div>
+				<div class="grid_4 alpha omega hiw">
+					<%= image_tag('hiw_2.png') %>
+					<div class="huge_size clearfix padding_left_20 margin_left_20 padding_top_20 margin_top_5"> 
+						<div class="float_left bold"> 2. </div>
+						<div class="left_align padding_right_20 margin_right padding_left_20">
+							Wir trimmen Ihre Specs auf den 30 Tage Zeitplan.
+						</div>
+					</div>
+				</div>
+				<div class="grid_4 omega padding_bottom margin_bottom_5 hiw">
+					<%= image_tag('hiw_3.png') %>
+					<div class="huge_size clearfix padding_top_20 margin_top_5"> 
+						<div class="float_left margin_left_20 padding_left_20 bold"> 3. </div>
+						<div class="left_align padding_right_20 margin_right hiw_pay">
+							Sie zahlen 50% im voraus und 50% nach dem Launch.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="padding_top_20 margin_top_20 center_align">
+				<h2 class="dull_maroon guarantee roman">
+					Nach dem Launch bieten wir fortlaufende Entwicklung in zweiwöchigen Sprints.
+				</h2>
+				<div class='padding_top_20 margin_top'>
+					<%= mail_to "info@accelerate.ly", ( "KONTAKTIEREN SIE UNS JETZT " + image_tag('contact_arrow.png', :class=>'button_arrow')).html_safe, :subject => "info" , :class=> 'link_to_button maroon_bg white' %>
+					<%#= link_to ( t('text.contact_us_now') + image_tag('contact_arrow.png', :class=>'button_arrow')).html_safe, "#", :class=> 'link_to_button maroon_bg white' %>
+				</div>
+			</div>
+		
+			<div class="experienced_team_wrapper clearfix roman">
+				<h1 class="center_align dark_grey padding_bottom margin_bottom_5">
+					Erfahrenes Team
+				</h1>
+				<div class="padding_bottom_20 margin_bottom_20"> <%= image_tag('team_line.png') %> </div>
+			</div>
+
+			<div class="team_info clearfix dark_grey">
+				<div class='grid_1 alpha'>&nbsp;</div>
+				<div class="grid_5"> 
+					<%= image_tag('justus.png') %> 
+					<h2 class="padding_top_20 margin_top dark_grey"> 
+						Justus <%= link_to "@LinkedIn", "http://www.linkedin.com/profile/view?id=204018", :class=>'bigger_size blue', :target=>'_blank' %>
+					</h2>
+					<h6 class='margin_bottom_20'>
+						Project Management
+					</h6>
+					<ul class="team_info bigger_size left_align padding_top clearfix">
+						<div class="float_left"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5"> 
+							Vorher: als Head of Product bei <a href='http://www.rocket-internet.de/' target='_blank'>Rocket Internet</a>
+						</li>
+						<div class="float_left padding_top"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5 padding_top">
+							Betreute er den Launch von <a href='http://www.dafiti.com.br/' target='_blank'>dafiti.com.br</a>, <a href='http://www.lamoda.ru/' target='_blank'>LaModa.ru</a>, <a href='http://www.locondo.jp/' target='_blank'>LOCONDO.jp</a>, und unterstütze Unternehmen wie <a href='http://www.glossybox.com/' target='_blank'>GLOSSYBOX</a> und <a href='http://www.wimdu.com/' target='_blank'>Wimdu</a>. 
+						</li>
+						<div class="float_left padding_top"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5 padding_top">
+							Gründer von <a href='http://www.newratings.de/du/main/home.m' target='_blank'>newratings.com</a>.
+						</li>
+					</ul>
+				</div>
+				<div class="grid_5 margin_left_20 omega">
+					<%= image_tag('ram.png') %> 
+					<h2 class="padding_top_20 margin_top dark_grey"> 
+						Ram <%= link_to "@LinkedIn", "http://www.linkedin.com/profile/view?id=4196722", :class=>'bigger_size blue', :target=>'_blank' %>
+					</h2>
+					<h6 class='margin_bottom_20'>
+						Advisor for IT architecture
+					</h6>
+					<ul class="team_info bigger_size left_align padding_top dark_grey clearfix padding_left_20">
+						<div class="float_left"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5">
+							Top IIT India Absolvent
+						</li>
+ 						<div class="float_left padding_top"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5 padding_top">
+							Weitreichende technische Expertise
+						</li>					 
+						<div class="float_left padding_top"><%= image_tag('bullets.png') %></div> 
+						<li class="padding_left margin_left_5 padding_top">
+							Zurzeit Chief Technology Officer bei <a href='http://www.zomato.com/'>zomato.com</a>
+						</li>	
+					</ul>					
+				</div>
+				
+			</div>
+			<div class='logos clearfix'>
+				<div class="grid_12 clearfix padding_top">
+					<div class="grid_3 padding_top_20 margin_top_20 padding_left_20 margin_left_20 omega">
+						<%= link_to image_tag('logo_rocket.png'), "http://www.rocket-internet.de/", :target=>"_blank" %>
+					</div>
+					<div class="grid_3 alpha omega padding_top_20 margin_top_5">
+						<%= link_to image_tag('logo_dafiti.png'), "http://www.dafiti.com.br/", :target=>"_blank" %>
+						
+					</div>
+					<div class="grid_3 alpha omega padding_top_20 margin_top_5">
+						<%= link_to image_tag('logo_lamoda.png'), "http://www.lamoda.ru/", :target=>"_blank" %>
+					</div>
+					<div class="grid_3 alpha omega hiw">
+						<%= link_to image_tag('logo_wimdu.png'), "http://www.wimdu.com/", :target=>"_blank" %>
+					</div>
+				</div>
+				<div class="grid_12 clearfix center_align padding_left_20 margin_left padding_top">
+					<div class="grid_3 padding_top_20 alpha omega">
+						<%= link_to image_tag('logo_glossy.png'), "http://www.glossybox.com/", :target=>"_blank" %>
+					</div>
+					<div class="grid_3 padding_top_20 omega">
+						<%= link_to image_tag('logo_infosys.png'), "http://www.infosys.com/", :target=>"_blank" %>
+					</div>
+					<div class="grid_3 padding_top_20 margin_top">
+						<%= link_to image_tag('logo_locondo.png'), "http://www.locondo.jp/", :target=>"_blank" %>
+					</div>
+					<div class="grid_3 padding_top_20 margin_top">
+						<%= link_to image_tag('logo_new_ratings.gif'), "http://www.newratings.de/du/main/home.m", :target=>"_blank" %>
+					</div>
+				</div>
+			</div>
+
+<!-- 			<div class='logoss'>
+				<div class='im_wr fdgh'><%= image_tag('logo_lamoda.png') %></div>
+				<div class='im_wr'><%= image_tag('logo_infosys.png') %></div>
+				<div class='im_wr'><%= image_tag('logo_infosys.png') %></div>
+			</div> -->
+		
+
+			<div class="center_align team_closing"><%= image_tag('team_line.png') %></div>
+		
+
+		<div class='clearfix team_closing'>
+			<div class="grid_12 clearfix left_align dark_grey bigger_size roman hiw_pay">
+				<div class="grid_6 alpha omega"> 
+					<h1 class="dull_maroon">
+						Fester Zeitplan
+					</h1>
+					<div class="padding_top_20 about_text">
+						Wir setzen den Zeitplan fest und trimmen Ihre erste Version auf ein MVP mit nur den notwendigen Features. So kommen wir leichter auf den Kern Ihres Produkts, was Sie befähigt schneller live zu gehen und früher die wichtigen Lern- und Verbesserungsprozesse für Ihr Produkt zu starten. 
+					</div>
+				</div>
+				<div class="grid_6 alpha omega about_heading"> 
+					<h1 class="dull_maroon">
+						Langfristige Unterstützung
+					</h1>
+					<div class="padding_top_20 about_text">
+						Nach dem Launch helfen wir Ihnen Ihre Anwendung kontinuierlich zu verbessern. Unser langfristiger Support findet in jeweils zweiwöchigen Sprints statt, was dauerhaft fokussierte und effiziente Arbeitsprozesse sicherstellt.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="center_align padding_bottom_20 margin_bottom"><%= image_tag('team_line.png') %></div>
+		<div class='clearfix'>
+			<div class="grid_12 clearfix left_align dark_grey bigger_size hiw_pay  team_closing">
+				<div class="grid_6 alpha omega"> 
+					<h1 class="dull_maroon">
+						Skalierbar
+					</h1>
+					<div class="padding_top_20 about_text">
+						Unser Team hat viel direkte Erfahrung im Aufbau und Management von populären und schnell wachsenden Internet Firmen und großen Teams. Unsere internationale Struktur erlaubt es uns zudem, wenn nötig, sehr schnell zusätzliche Resourcen und Entwickler auf Ihr Projekt anzusetzen.
+					</div>
+				</div>
+				<div class="grid_6 alpha omega about_heading"> 
+					<h1 class="dull_maroon">
+						Technology Stack
+					</h1>
+					<div class="padding_top_20 about_text">
+						Ruby on Rails, Apple iOS (iPhone, iPad), Android, PHP, Open Source CMS (Magento, Drupal, Joomla, Wordpress, Spree, Refinery, etc.), HTML 5, Adobe Flash, Flex und Photoshop, Java, .NET, Blackberry, Microsoft SharePoint Server (MOSS), C #, C++, Facebook application development, Windows7 phone, Android tablet und mehr.
+					</div>
+					<div class="padding_top_20 margin_top_5 about_text"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class='padding_top_20 margin_top padding_bottom_20 margin_bottom_20'>
+			<%= mail_to "info@accelerate.ly", ( "KONTAKTIEREN SIE UNS JETZT " + image_tag('contact_arrow.png', :class=>'button_arrow')).html_safe, :subject => "info" , :class=> 'link_to_button maroon_bg white' %>
+			<%#= link_to ( t('text.contact_us_now') + image_tag('contact_arrow.png', :class=>'button_arrow')).html_safe, "#", :class=> 'link_to_button maroon_bg white' %>
+		</div>
+	</div>
+</div>
+<div class="bottom_blue_bg">
+	<div class="container_12 white bigger_size roman">
+		<div class='clearfix'>
+			<div class='grid_12'>
+				<h3 class="center_align dark_grey normal padding_top padding_bottom_20 margin_bottom_20 white_bg letter_spacing">
+					+49 170 4713446 - 
+					<%= mail_to "info@accelerate.ly", "info@accelerate.ly", :subject => "info" , :class=> 'sea_green' %>
+				</h3>
+			</div>
+		</div>
+		<div class='padding_top_20 clearfix'>
+			<div class='grid_6'>
+				<div class="team_info padding_bottom_20 margin_bottom_20 text_shadow">
+					<div class='letter_spacing'>Kontakt</div>
+					<div>Justus Ohlhaver, Fehrbelliner Strasse 43, 10119 Berlin</div>
+					<div>Mobil: +49 170 4713446</div>
+					<div>info@accelerate.ly</div>
+					<div>Diensteanbieter gemäß §5 TMG bzw. Verantwortlicher</div>
+					<div>gemäß § 55 Abs. 2, RStV: Justus Ohlhaver</div>
+				</div>
+			</div>
+			<div class='grid_6'>
+				<div class="fb-like" data-href="https://www.facebook.com/Accelerately" data-send="true" data-width="450" data-show-faces="true"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_black"></div>
+</div>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+

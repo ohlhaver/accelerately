@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accelerate.ly - smart web development</title>
+  <meta name='description' content='accelerate.ly - fast web and app development'/>
+  <meta name='keywords' content='Ruby on Rails development, iOS development'/>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+	<!--[if lte IE 8]>
+	  <%= stylesheet_link_tag "ie8" %>
+	<![endif]-->
+	<!--[if lte IE 7]>
+	  <%= stylesheet_link_tag "ie7" %>
+	<![endif]-->	
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= yield %>
+</body>
+</html>

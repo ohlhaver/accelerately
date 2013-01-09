@@ -1,0 +1,43 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+de:
+  email:
+    subject: "info"
+  gaurav:
+    profile: "Product Management"
+    bullet_1: "Zuvor Software Engineer bei <a href='http://www.infosys.com/' target='_blank'>Infosys Ltd.</a>"
+    bullet_2: "developer at <a href='http://www.beautyprofile.de/' target='_blank'>beautyprofile.de</a>,  <a href='http://www.shoeklick.com/' target='_blank'>shoeklick.com</a>"
+    bullet_3: "Entwickler und Produkt Manager bei <a href='http://www.beautyprofile.de/' target='_blank'>beautyprofile.de</a>, <a href='http://www.shoeklick.com/' target='_blank'>shoeklick.com</a>, und <a href='http://localisto.herokuapp.com/' target='_blank'>localisto.de</a> "
+  header:
+    english: "ENGLISH"
+    german: "DEUTSCH"
+  justus:
+    profile: "Project Management"
+    bullet_1: "vorher: als Head of Product bei <a href='http://www.rocket-internet.de/' target='_blank'>Rocket Internet</a>"
+    bullet_2: "betreute er den Launch von <a href='http://www.dafiti.com.br/' target='_blank'>dafiti.com.br</a>, <a href='http://www.lamoda.ru/' target='_blank'>LaModa.ru</a>, <a href='http://www.locondo.jp/' target='_blank'>LaModa.ru</a>, und unterstütze Unternehmen wie <a href='http://www.glossybox.com/' target='_blank'>GlossyBox</a> und <a href='http://www.wimdu.com/' target='_blank'>Wimdu</a>."
+    bullet_3: "Gründer von <a href='http://www.newratings.de/du/main/home.m' target='_blank'>newratings.com</a>."
+  ram:
+    profile: "Advisor for IT architecture"
+    bullet_1: "Top IIT India Absolvent"
+    bullet_2: "Extensive Technical expertise"
+    bullet_3: "Zurzeit Chief Technology Officer bei <a href='http://www.zomato.com/'>zomato.com</a>"
+  text:
+    after_launch_sprints: "Nach dem Launch bieten wir fortlaufende Entwicklung in zweiwöchigen Sprints."
+    contact_us_now: "KONTAKTIEREN SIE UNS JETZT"
+    contact: "Kontakt"
+    continuous_support: "Langfristige Unterstützung"
+    continuous_support_text: "Nach Ihrem Launch stehen wir bereit Sie fortlaufend zu unterstützen um Ihnen zu helfen Ihre Anwendung kontinuierlich zu verbessern. Unser langfristiger Support findet in jeweils zweiwöchigen Sprints statt: Alle zwei Wochen implementieren wir Ihre Liste mit den wichtigsten neuen Funktionen und Änderungen."    
+    experienced_team: "Erfahrenes Team"
+    fast_web_development: "Schnelle hochwertige Web- und App-Programmierung für Internet Firmen und Online Shops."
+    fixed_budget: "Festes Budget"
+    fixed_budget_text: "Statt zu versuchen ein Budget für eine Anwendung mit allen denkbaren Features zu rechtfertigen, fixieren wir das Budget und trimmen die erste Version auf ein MVP mit nur den wirklich notwendigen Features. Indem wir das Budget und den Zeitraum fix halten, glauben wir leichter auf den Kern des Produkts, das sie anbieten, zu kommen. Daher legen wir als ersten Schritt den Umfang für Ihr MVP fest."
+    fixed_rate: "Minimum Viable Product Launch in 30 Tagen."
+    how_it_works: "So funktioniert’s:"
+    ruby_on_rails: "Ruby on Rails"
+    ruby_on_rails_text: "Wir benutzen Ruby on Rails, weil die Geschwindigkeit und Agilität dieses Webframeworks am besten zu den zeitkritischen und schnell wechselnden Bedürfnissen unserer Kunden passt. Ruby on Rails ist nicht nur das am schnellsten wachsende sonder auch das - bei weitem - produktivste Web Application Framework: <br/> &nbsp;&nbsp; 'The growing demand for Ruby on Rails has been driven by successful companies who benefit from the speed and agility of building applications in Rails, which results in increased productivity and company growth. [...] Many of the fastest-growing web-based companies have been built using Ruby on Rails: Scribd (over 70 million readers each month), Groupon (over 38.5 million subscribers in North America), Basecamp (millions of users). All in all, more than 200,000 web sites are using Ruby on Rails.' <br/> - <a href='http://articles.businessinsider.com/2011-05-11/tech/30035869_1_ruby-rails-custom-software' class='sea_green' target='_blank'>Business Insider , May 2011</a> "
+    scalable: "Skalierbar"
+    scalable_text: "Unser Team hat direkte Erfahrung im Aufbau und Management von populären und schnell wachsenden Internet Firmen. Unsere internationale Struktur erlaubt es uns zudem, wenn nötig, sehr schnell zusätzliche Resourcen und Entwickler auf Ihr Projekt anzusetzen."    
+    tell_us_what_you_need: "Sie sagen uns, was Sie brauchen."
+    we_trim_your_specs: "Wir trimmen Ihre Spezifikationen so, dass sie in das 30 Tage Zeitfenster und feste Budget passen."
+    you_pay_after_successful_launch: "Sie zahlen 50% im voraus und 50% nach dem erfolgreichen Launch."

@@ -1,0 +1,43 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  email:
+    subject: "info"
+  gaurav:
+    profile: "Product Management"
+    bullet_1: "Previously software engineer at <a href='http://www.infosys.com/' target='_blank'>Infosys Ltd.</a>"
+    bullet_2: "Developer and product manager at <a href='http://www.beautyprofile.de/' target='_blank'>beautyprofile.de</a>, <a href='http://www.shoeklick.com/' target='_blank'>shoeklick.com</a>, and <a href='http://localisto.herokuapp.com/' target='_blank'>localisto.de</a> "
+    bullet_3: ""
+  header:
+    english: "ENGLISH"
+    german: "DEUTSCH"
+  justus:
+    profile: "Project Management"
+    bullet_1: "Previously: as Head of Product at <a href='http://www.rocket-internet.de/' class='bigger_size blue' target='_blank'>Rocket Internet</a>"
+    bullet_2: "Managed the Launch of <a href='http://www.dafiti.com.br/' target='_blank'>dafiti.com.br</a>, <a href='http://www.lamoda.ru/' target='_blank'>LaModa.ru</a>, <a href='http://www.locondo.jp/' target='_blank'>LOCONDO.jp</a>, and supported companies such as <a href='http://www.glossybox.com/' target='_blank'>GLOSSYBOX</a> and <a href='http://www.wimdu.com/' target='_blank'>Wimdu</a>."
+    bullet_3: "Founder of <a href='http://www.newratings.de/du/main/home.m' target='_blank'>newratings.com</a>."
+  ram:
+    profile: "Advisor for IT architecture"
+    bullet_1: "Top IIT India Graduate"
+    bullet_2: "Extensive technical expertise"
+    bullet_3: "Heading the technology division at <a href='http://www.zomato.com/'>zomato.com</a>"
+  text:
+    after_launch_sprints: "After launch we offer continuous development in bi-weekly sprints."
+    contact_us_now: "CONTACT US NOW &nbsp;&nbsp;&nbsp;"
+    contact: "Contact"
+    continuous_support: "Continuous support"
+    continuous_support_text: "After launch we help you to continuously tweak and enhance your application. Our continuous support is organized in bi-weekly sprints, which ensures continued high focus and efficiency."
+    experienced_team: "Experienced team"
+    fast_web_development: "Smart web development<br/>for startups."
+    fixed_rate: "Minimum Viable Product launched within 30 days, starting at 2,500 €"
+    fixed_budget: "Fixed timeframe"
+    fixed_budget_text: "We fix the timeframe and trim your first version to an MVP with just the necessary features. Keeping the timeframe fixed makes it easier to get to the core of your solution. It thus enables you to launch, do business and make progress more quickly."
+    how_it_works: "This is how it works:"
+    ruby_on_rails: "All mobile platforms"
+    ruby_on_rails_text: "Apple iOS (iPhone, iPad), Android, Android tablet, Windows7 phone, Blackberry, PHP, Ruby on Rails, Java, .NET, Open Source CMS (Magento, Drupal, Joomla, Wordpress, Spree, Refinery, etc.), HTML 5, Adobe Flash, Flex and Photoshop, Microsoft SharePoint Server (MOSS), C #, C++, Facebook application development and more."
+    scalable: "Scalable"
+    scalable_text: "Our team members have vast hands-on experience in building and managing popular and rapidly growing internet companies and large teams. Our international setup allows us to quickly allocate additional resources and developers to your project if and when needed."
+    tell_us_what_you_need: "You tell us what you &nbsp; need."
+    we_trim_your_specs: "We trim the specs to fit the 30 days time frame."
+    you_pay_after_successful_launch: "You pay 50% upfront and 50% after launch."

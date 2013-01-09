@@ -1,0 +1,25 @@
+$font_eot : url(<%= asset_path( 'neuzeitgrot-webfont.eot' ) %>);
+$font_eot_fx : url(<%= asset_path( 'neuzeitgrot-webfont.eot' ) + "?#iefix" %>);
+$font_woff : url(<%= asset_path( 'neuzeitgrot-webfont.woff' ) %>);
+$font_ttf : url(<%= asset_path( 'neuzeitgrot-webfont.ttf' ) %>);
+
+@font-face {
+  font-family: 'neuzeitgrot';
+  src: $font_eot;
+  src: $font_eot_fx format('embedded-opentype'), $font_woff format('woff'), $font_ttf format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font_eot : url(<%= asset_path( 'neuzeitgrot_bold-webfont.eot' ) %>);
+$font_eot_fx : url(<%= asset_path( 'neuzeitgrot_bold-webfont.eot' ) + "?#iefix" %>);
+$font_woff : url(<%= asset_path( 'neuzeitgrot_bold-webfont.woff' ) %>);
+$font_ttf : url(<%= asset_path( 'neuzeitgrot_bold-webfont.ttf' ) %>);
+
+@font-face {
+  font-family: 'neuzeitgrot_bold';
+  src: $font_eot;
+  src: $font_eot_fx format('embedded-opentype'), $font_woff format('woff'), $font_ttf format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
