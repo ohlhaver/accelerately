@@ -75,10 +75,44 @@
 				</div>
 			</div>
 		
-			<div class="experienced_team_wrapper clearfix roman">
+			
+		<div class="center_align team_closing"></div>
+	
+
+		<div class='clearfix team_closing'>
+			<div class="grid_12 clearfix left_align dark_grey bigger_size roman hiw_pay">
+				<div class="grid_6 alpha omega"> 
+					<h1 class="dull_maroon"><%= t('text.scalable') %></h1>
+					<div class="padding_top_20 about_text"> <%= t('text.scalable_text') %></div>
+				</div>
+				<div class="grid_6 alpha omega about_heading"> 
+					<h1 class="dull_maroon"><%= t('text.continuous_support') %></h1>
+					<div class="padding_top_20 about_text"><%= t('text.continuous_support_text') %></div>
+				</div>
+			</div>
+		</div>
+		<div class="center_align team_closing"><%= image_tag('team_line.png') %></div>
+
+		<div class='clearfix team_closing'>
+			<div class="grid_12 clearfix left_align dark_grey bigger_size roman hiw_pay">
+				<div class="grid_6 alpha omega"> 
+					<h1 class="dull_maroon"><%= t('text.fixed_budget') %></h1>
+					<div class="padding_top_20 about_text"><%= t('text.fixed_budget_text') %></div>
+				</div>
+
+				<div class="grid_6 alpha omega about_heading"> 
+					<h1 class="dull_maroon"><%= t('text.ruby_on_rails') %> </h1>
+					<div class="padding_top_20 about_text"><%= t('text.ruby_on_rails_text').html_safe %></div>
+					<div class="padding_top_20 margin_top_5 about_text"></div>
+				</div>
+			</div>
+		</div>
+
+
+		
 				<h1 class="center_align dark_grey padding_bottom margin_bottom_5"><%= t('text.experienced_team') %></h1>
 				<div class="padding_bottom_20 margin_bottom_20"> <%= image_tag('team_line.png') %> </div>
-			</div>
+			
 
 			<div class="team_info clearfix dark_grey">
 				<div class='grid_1 alpha'>&nbsp;</div>
@@ -148,37 +182,10 @@
 				<div class='im_wr'><%= image_tag('logo_infosys.png') %></div>
 				<div class='im_wr'><%= image_tag('logo_infosys.png') %></div>
 			</div> -->
+			<div class="experienced_team_wrapper clearfix roman">
+			<div class="center_align team_closing"></div>
+			</div>
 		
-
-		<div class="center_align team_closing"><%= image_tag('team_line.png') %></div>
-
-		<div class='clearfix team_closing'>
-			<div class="grid_12 clearfix left_align dark_grey bigger_size roman hiw_pay">
-				<div class="grid_6 alpha omega"> 
-					<h1 class="dull_maroon"><%= t('text.fixed_budget') %></h1>
-					<div class="padding_top_20 about_text"><%= t('text.fixed_budget_text') %></div>
-				</div>
-				<div class="grid_6 alpha omega about_heading"> 
-					<h1 class="dull_maroon"><%= t('text.continuous_support') %></h1>
-					<div class="padding_top_20 about_text"><%= t('text.continuous_support_text') %></div>
-				</div>
-			</div>
-		</div>
-		<div class="center_align team_closing"><%= image_tag('team_line.png') %></div>
-
-		<div class='clearfix team_closing'>
-			<div class="grid_12 clearfix left_align dark_grey bigger_size roman hiw_pay">
-				<div class="grid_6 alpha omega"> 
-					<h1 class="dull_maroon"><%= t('text.scalable') %></h1>
-					<div class="padding_top_20 about_text"> <%= t('text.scalable_text') %></div>
-				</div>
-				<div class="grid_6 alpha omega about_heading"> 
-					<h1 class="dull_maroon"><%= t('text.ruby_on_rails') %> </h1>
-					<div class="padding_top_20 about_text"><%= t('text.ruby_on_rails_text').html_safe %></div>
-					<div class="padding_top_20 margin_top_5 about_text"></div>
-				</div>
-			</div>
-		</div>
 		
 		<div class='padding_top_20 margin_top padding_bottom_20 margin_bottom_20'>
 			<%= mail_to "info@accelerate.ly", ( t('text.contact_us_now') + image_tag('contact_arrow.png', :class=>'button_arrow')).html_safe, :subject => t('email.subject') , :class=> 'link_to_button maroon_bg white' %>
