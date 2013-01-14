@@ -1,4 +1,9 @@
 class PagesController < ApplicationController
+caches_action :home
+caches_action :de
+
+
+
 	def home
 	end
 

@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'memcachier'
+gem 'dalli'
+
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
@@ -37,3 +40,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+
